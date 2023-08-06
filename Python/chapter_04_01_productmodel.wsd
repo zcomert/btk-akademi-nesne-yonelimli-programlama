@@ -1,3 +1,9 @@
 @startuml Class Diagram
 title Product Model
+class Product{
+    +name
+    +price
+    +quantity
+    +Product(name, price, quantity)
+}
 @enduml
