@@ -1,9 +1,18 @@
 @startuml Class Diagram
 title Product Model
 class Product{
-    +name
-    +price
-    +quantity
+    -name
+    -price
+    -quantity
+    --
+    +getName()
+    +getPrice()
+    +getQuantity()
+    --
+    +setName(value)
+    +setPrice(value)
+    +setQuantity(value)
+    --
     +Product(name, price, quantity)
 }
 @enduml
