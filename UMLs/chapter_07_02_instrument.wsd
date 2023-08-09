@@ -1,0 +1,19 @@
+@startuml Employee
+title Instrument
+
+interface Instrument {
+    +play()
+}
+
+class Gitar {
+     +play()
+}
+class Piano {
+     +play()
+}
+
+Gitar .up-|> Instrument : <<implements>>
+Piano .up-|> Instrument : <<implements>>
+
+hide empty members
+@enduml

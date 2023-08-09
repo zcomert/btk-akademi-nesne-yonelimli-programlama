@@ -19,7 +19,7 @@ interface Comparable{
     +compareTo(o:Object):int
 }
 
-Employee -up-|> Comparable : <<implements>>
+Employee .up-|> Comparable : <<implements>>
 
 hide empty members
 @enduml
