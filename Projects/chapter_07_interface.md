@@ -43,3 +43,6 @@ class SecuritySystem extends Appliance {
 ```
 
 Bu proje, Java programlama dilini kullanarak nesne yönelimli programlama prensiplerini uygulamanıza ve akıllı ev yönetimi senaryosunu modellemenize yardımcı olacaktır. Aynı zamanda, gereksinim listesinde belirtilen özellikler sayesinde kod tekrarını önleyebilir, çoklu kalıtım ve polimorfizm gibi kavramları anlayabilirsiniz.
+
+> İstediğiniz her hangi bir dilde kodlama yapabilirsiniz. Hazırladığınız çözümleri ***discord*** kanalında eğitimi alan diğer kursiyerlerle paylaşabilirsiniz. 
+
