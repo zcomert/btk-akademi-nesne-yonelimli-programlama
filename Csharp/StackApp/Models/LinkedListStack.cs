@@ -1,6 +1,7 @@
 using StackApp.Contract;
 namespace StackApp.Models;
 public class LinkedListStack<T> : IStack<T>
+// where T: class, IComparable
 {
     private LinkedList<T> _collection;
     public LinkedListStack()
