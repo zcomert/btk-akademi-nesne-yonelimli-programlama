@@ -1,0 +1,24 @@
+@startuml static
+title Static 
+class BankAccount{
+   #{static}accountName
+   #{static}accountId
+   #{static}balance
+   -{static}netId
+   --
+   +deposit(amount)
+   +withDraw(amount)
+   +toString()
+   +{static}getAccType()
+}
+
+class CheckingAccount{
+    -overDrawftLimit
+    +withDraw()
+    +toString()
+    +{static}getAccType()
+}
+
+CheckingAccount -up-|> BankAccount : <<extends>>
+hide empty fields
+@enduml
