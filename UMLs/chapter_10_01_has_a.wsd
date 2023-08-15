@@ -1,0 +1,5 @@
+@startuml relations
+title has-a
+
+hide empty members
+@enduml

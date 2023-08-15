@@ -1,24 +1,23 @@
-﻿using StackApp.Contract;
-using StackApp.Models;
+﻿using StackApp.Models;
 
-// Array
-var numbers = new int[] { 23, 44, 55 };     
+var stack_numbers =
+    new StackApp.Models.Stack<int>(new int[] { 1, 2, 3 });
 
-// List<T>
-var employees = new List<Employee>()        
-{
-    new Employee("Ahmet Can",20),
-    new Employee("Mehmet Dağ",25),
-    new Employee("Filiz Güneş",30)
-};
+stack_numbers.Push(55);
 
-// Datetime
-var dates = new LinkedList<DateTime>(new DateTime[]{
-    DateTime.Now,
-    DateTime.Now.AddDays(7),
-    DateTime.Now.AddHours(5)
+System.Console.WriteLine(stack_numbers.Peek());
+
+var stack_cities = new StackApp.Models.Stack<string>(new List<String>() {
+    "İstanbul","Ankara","Samsun"
 });
 
-IStack<int> stack_number = new LinkedListStack<int>(numbers);
-IStack<Employee> stack_employee = new LinkedListStack<Employee>(employees);
-IStack<DateTime> stack_date = new LinkedListStack<DateTime>(dates);
+System.Console.WriteLine(stack_cities.Peek());
+
+var stack_employees = new StackApp.Models.Stack<Employee>(new Employee[]{
+    new Employee("Ahmet","Güneş",27),
+    new Employee("Can","Dağ",25),
+    new Employee("Merve","Yılmaz",30)
+});
+
+System.Console.WriteLine(stack_employees.Pop());
+

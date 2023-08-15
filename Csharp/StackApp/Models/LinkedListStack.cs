@@ -1,22 +1,22 @@
 using StackApp.Contract;
 namespace StackApp.Models;
+
 public class LinkedListStack<T> : IStack<T>
-// where T: class, IComparable
 {
     private LinkedList<T> _collection;
     public LinkedListStack()
     {
         _collection = new LinkedList<T>();
     }
-
-    public LinkedListStack(IEnumerable<T> collection) : this()
+    public LinkedListStack(IEnumerable<T> collection) 
+        : this()
     {
         foreach (var item in collection)
         {
             Push(item);
         }
     }
-
+    
     public T Peek()
     {
         return _collection.First.Value;

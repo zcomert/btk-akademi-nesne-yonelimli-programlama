@@ -1,32 +1,28 @@
 @startuml
-title Generic Stack
-interface IStack<T>{
-    +push(item:T)
-    +pop():T
-    +peek():T
+title Object Stack
+
+interface IStack{
+    +push(item:object)
+    +pop():object
+    +peek():object
 }
 
-class LinkedListStack<T>{
-    -collection:T[]
-    +LinkedListStack()
-    +LinkedListStack(collection:T[])
-    --
-    +push(item:T)
-    +pop():T
-    +peek():T
+class LinkedListStack{
+    -collection:object[]
+    +push(item:object)
+    +pop():object
+    +peek():object
 }
 
-class ListStack<T>{
-    -collection:T[]
-    +ListStack()
-    +ListStack(collection:T[])
-    --
-    +push(item:T)
-    +pop():T
-    +peek():T
+class ListStack{
+    -collection:object[]
+    +push(item:object)
+    +pop():object
+    +peek():object
 }
 
-ListStack -l-|> IStack : <<implements>>
-LinkedListStack -r-|> IStack : <<implements>>
+ListStack -.l-|> IStack : <<implements>>
+LinkedListStack -.r-|> IStack : <<implements>>
+
 hide empty members
 @enduml

@@ -2,14 +2,23 @@ namespace StackApp.Models;
 
 public class Employee
 {
-    public Employee(string fullName, decimal salary)
+    public Employee()
     {
-        FullName = fullName;
+        
+    }
+    public Employee(string firstName, string lastName, decimal salary)
+    {
+        FirstName = firstName;
+        LastName = lastName;
         Salary = salary;
     }
-    public String FullName { get; set; } = string.Empty;
-    public Decimal Salary { get; set; }
 
+    public String FirstName { get; set; } = string.Empty;
+    public String LastName { get; set; }
+    public Decimal Salary { get; set; } = 0;
+
+    public String FullName => FirstName + " " + LastName;
+    
     public override String ToString()
     {
         return string.Concat(FullName, " ", Salary);

@@ -1,0 +1,15 @@
+f:\github\Csharp\StackApp\bin\Debug\net7.0\StackApp.exe
+f:\github\Csharp\StackApp\bin\Debug\net7.0\StackApp.deps.json
+f:\github\Csharp\StackApp\bin\Debug\net7.0\StackApp.runtimeconfig.json
+f:\github\Csharp\StackApp\bin\Debug\net7.0\StackApp.dll
+f:\github\Csharp\StackApp\bin\Debug\net7.0\StackApp.pdb
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.csproj.AssemblyReference.cache
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.GeneratedMSBuildEditorConfig.editorconfig
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.AssemblyInfoInputs.cache
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.AssemblyInfo.cs
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.csproj.CoreCompileInputs.cache
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.dll
+f:\github\Csharp\StackApp\obj\Debug\net7.0\refint\StackApp.dll
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.pdb
+f:\github\Csharp\StackApp\obj\Debug\net7.0\StackApp.genruntimeconfig.cache
+f:\github\Csharp\StackApp\obj\Debug\net7.0\ref\StackApp.dll
