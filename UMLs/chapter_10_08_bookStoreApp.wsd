@@ -97,4 +97,4 @@ Book "n" o-r-> "1" Category : "   one to many   "
 Book "1" <-u-o "0..n" BookAuthor : "one to many"
 Author "1" <-l-o "0..n" BookAuthor : "one to many"
 
-hide members
+' hide members
