@@ -1,5 +1,21 @@
-@startuml relations
+@startuml has-a
 title has-a
+
+class Student {
+  - name: String
+  - studentNumber: String
+  + Student(name: String, studentNumber: String)
+}
+
+class University {
+  - name: String
+  - students: List<Student>
+  + University(name: String)
+  + addStudent(student: Student): void
+  + getStudents(): void
+}
+
+Student -down-o University : 1..*
 
 hide empty members
 @enduml

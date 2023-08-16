@@ -1,0 +1,25 @@
+@startuml "purchase use case diagram"
+left to right direction
+skinparam packageStyle rectangle
+actor "Purchaser" as purchaser
+actor "Department Manager" as departmentManager
+
+rectangle OSO {
+    (Login) as login
+    (View Catalog) as vc
+    (Purchase Request) as pr
+    (Department Purchase Request) as dpr
+
+    dpr .> pr : <<extends>>
+    pr .> vc : <<includes>>
+    vc .> login : <<includes>>
+}
+
+purchaser -up-> login
+purchaser -up-> vc
+purchaser -up-> pr
+
+departmentManager -down-> login
+departmentManager -down-> vc
+departmentManager -down-> dpr
+@enduml
