@@ -1,0 +1,60 @@
+@startuml purchase
+title Purchase request class diagram
+
+class Employee {
+    +EmployeeId :Integer
+    +LoginName:String
+    +Password:String
+    +Department:String
+    +FirstName:String
+    +LastName:String
+    --
+    +Login()
+}
+
+class DepartmentManager {
+    +ApprovePurchase()
+}
+
+
+class Order{
+    +OrderNumber : Long
+    +OrderData : Date
+    +Status : String
+    --
+    +AddItem()
+    +RemoveItem()
+    +SubmitOrder()
+}
+
+class OrderItem{
+    +ProductNumber:String
+    +Quantity:Integer
+    +UnitPrice:Decimal
+}
+
+
+class Product{
+    +ProductNumber:String
+    +ProductName:String
+    +Description:String
+    +UnitPrice:Decimal
+    +Category:String
+    +VendorCode:String
+}
+
+class ProductCatalog{
+    +ListCategories()
+    +ListProducts()
+}
+
+DepartmentManager -u-|> Employee : <<inherits>>
+
+Employee "1" -r- "0..n" Order : makes an >
+Order "1" - "1..n" OrderItem : contains >
+OrderItem "1" -d- "1..n" Product : contains >
+ProductCatalog "1" -r- "1..n" Product : contains >
+
+hide empty fields
+hide empty methods
+@enduml

@@ -1,5 +1,19 @@
 @startuml use-a
-title dependency
+title use-a
+
+class Engine {
+  + start(): void
+  + stop(): void
+}
+
+class Car {
+  - engine: Engine
+  + Car()
+  + start(): void
+  + stop(): void
+}
+
+Car  "uses" --> Engine
 
 hide empty members
 @enduml

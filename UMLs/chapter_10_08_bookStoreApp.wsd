@@ -1,0 +1,100 @@
+@startuml bookstoreapp
+title Book Store App
+
+class Book{
+    -bookId
+    -title
+    -price
+    -categoryId
+    -bookAuthors:BookAuthor[]
+    --
+    +getBookId()
+    +getTitle()
+    +getPrice()
+    +getCategoryId()
+    +getBookAuthors()
+    --
+    +setBookId(value)
+    +setTitle(value)
+    +setPrice(value)
+    +setCategoryId(value)
+    +setBookAuthors(value)
+    --
+    +Book()
+    +Book(id,title,price)
+}
+
+class BookDetail{
+    -bookDetailId
+    -bookId
+    -publisher
+    -ISBN
+    --
+    +getBookDetailId()
+    +getBookId()
+    +getPublisher()
+    +getISBN()
+    --
+    +setBookDetailId(value)
+    +setBookId(value)
+    +setPublisher(value)
+    +setISBN(value)
+    --
+    +BookDetail()
+}
+
+class Category{
+    -categoryId
+    -categoryName
+    -books:Book[]
+    --
+    +getCategoryId()
+    +getCategoryName()
+    +getBooks()
+    --
+    +setCategoryId(value)
+    +setCategoryName(value)
+    +setBooks()
+    --
+    +Category()
+}
+
+class Author{
+    -authorId
+    -fullName
+    -bookAuthors
+    --
+    +getAuthorId()
+    +getFullName()
+    +getBookAuthors()
+    --
+    +setAuthorId(value)
+    +setFullName(value)
+    +setBookAuthors(value)
+    --
+    +Author()
+}
+
+class BookAuthor{
+    -bookAuthorId
+    -bookId
+    -authorId
+    --
+    +getBookAuthorId()
+    +getBookId()
+    +getAuthorId()
+    --
+    +setBookAuthorId(value)
+    +setBookId(value)
+    +setAuthorId(value)
+    --
+    +BookAuthor()
+}
+
+Book "1" *-l-> "0..1" BookDetail : "   one to one   "
+Book "n" o-r-> "1" Category : "   one to many   "
+
+Book "1" <-u-o "0..n" BookAuthor : "one to many"
+Author "1" <-l-o "0..n" BookAuthor : "one to many"
+
+' hide members

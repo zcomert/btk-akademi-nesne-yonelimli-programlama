@@ -1,0 +1,8 @@
+@startuml sequence
+title "Login sequence diagram"
+skinparam sequenceMessageAlign center
+activate Purchaser
+Purchaser -> Employee: Login
+Purchaser <-- Employee: Login Response
+deactivate Purchaser
+@enduml
