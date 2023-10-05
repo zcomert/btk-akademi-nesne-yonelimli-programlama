@@ -1,5 +1,5 @@
 # BTK Akademi 
-<div style="text-align: center;">
+<div aling="center">
 <p>
 <a href="https://www.btkakademi.gov.tr/portal/course/uygulamalarla-nesne-yonelimli-programlama-27027" target="_blank">
 <img width="250px" src="https://assets-btkakademi-gov-tr.akamaized.net/api/gallery/51/1381062e-1c00-49f1-8b62-c77992797e79/302_0x400.jpg?t=1693464864274" />
@@ -17,9 +17,9 @@ Uygulamalarla Nesne Yönelimli Programlama
 
 Programlama paradigmaları, bir programlama dili veya yaklaşımın hangi düşünce ve felsefe üzerine inşa edildiğini belirten kavramlardır. Programlama paradigmaları, programlama dilinde kullanılan veri yapıları, algoritmalar ve diğer programlama kavramlarını belirleyen düşünce setidir. Günümüzde prosedürel programlama, nesne yönelimli programlama ve fonksiyonel programlama en fazla tercih edilen paradigmalar arasında yer alır. 
 
-Nesne Yönelimli Programlama (NYP) eğitimde, NYP paradigmasına odaklanıyoruz. Nesneler gerçek dünyadaki nesneleri kod içerisinde taklit eder ve onların özellik (attribute) ve davranışlarını (behavior) depolar. Nesneler, veri ve yöntemlerin bir ilişki oluşturmak üzere bir araya getirilmesine olanak tanır; soyut, gerçek dünyaya ait bir nesneyi temsil eder. 
+Nesne Yönelimli Programlama (NYP) eğitimde, NYP paradigmasına odaklanıyoruz. Nesneler gerçek dünyadaki nesneleri kod içerisinde taklit eder ve onların özellik (attribute) ve davranışlarını (behavior) depolar.  
 
->NYP paradigması, gerçek hayat problemlerini modellemeye uygun kodlama yapmanıza imkan sağlar. Dahası, modüler, tekrar kullanılabilir, bakımı kolay yapılabilir, genişletilebilir ve test edilebilir kod blokları oluşturmanı imkan sağlar. 
+>NYP paradigması, gerçek hayat problemlerini modellemeye uygun kodlama yapmanıza imkan sağlar. Dahası, modüler, tekrar kullanılabilir, bakımı kolay yapılabilir, genişletilebilir ve test edilebilir kod blokları oluşturmanıza imkan sağlar. 
 
 ## Eğitim Hakkında 
 NYP, yazılım geliştirme dünyasında oldukça önemli bir paradigmadır ve birçok avantajı vardır. NYP'yi öğrenmek, yazılım geliştirme sürecini daha etkili ve yapılandırılmış hale getirebilir. 
