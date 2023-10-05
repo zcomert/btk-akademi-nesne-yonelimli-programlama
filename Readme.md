@@ -1,4 +1,18 @@
 # BTK Akademi 
+<div style="text-align: center;">
+<p>
+<a href="https://www.btkakademi.gov.tr/portal/course/uygulamalarla-nesne-yonelimli-programlama-27027" target="_blank">
+<img width="250px" src="https://assets-btkakademi-gov-tr.akamaized.net/api/gallery/51/1381062e-1c00-49f1-8b62-c77992797e79/302_0x400.jpg?t=1693464864274" />
+</a>
+</p>
+<p>
+<a href="https://www.btkakademi.gov.tr/portal/course/uygulamalarla-nesne-yonelimli-programlama-27027" target="_blank">
+Uygulamalarla Nesne Yönelimli Programlama
+</a>
+</p>
+</div>
+
+
 ## Nesne Yönelimli Programlama Eğitimi
 
 Programlama paradigmaları, bir programlama dili veya yaklaşımın hangi düşünce ve felsefe üzerine inşa edildiğini belirten kavramlardır. Programlama paradigmaları, programlama dilinde kullanılan veri yapıları, algoritmalar ve diğer programlama kavramlarını belirleyen düşünce setidir. Günümüzde prosedürel programlama, nesne yönelimli programlama ve fonksiyonel programlama en fazla tercih edilen paradigmalar arasında yer alır. 
