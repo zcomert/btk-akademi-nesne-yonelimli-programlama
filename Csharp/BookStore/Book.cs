@@ -24,5 +24,12 @@ namespace BookStore
 
         public ICollection<BookAuthor> BookAuthors { get; set; }
 
+        public BookDetail BookDetail
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

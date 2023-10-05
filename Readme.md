@@ -7,17 +7,25 @@ Nesne Yönelimli Programlama (NYP) eğitimde, NYP paradigmasına odaklanıyoruz.
 
 >NYP paradigması, gerçek hayat problemlerini modellemeye uygun kodlama yapmanıza imkan sağlar. Dahası, modüler, tekrar kullanılabilir, bakımı kolay yapılabilir, genişletilebilir ve test edilebilir kod blokları oluşturmanı imkan sağlar. 
 
+## Eğitim Hakkında 
+NYP, yazılım geliştirme dünyasında oldukça önemli bir paradigmadır ve birçok avantajı vardır. NYP'yi öğrenmek, yazılım geliştirme sürecini daha etkili ve yapılandırılmış hale getirebilir. 
+
+Eğitimimizde dilden bağımsız olarak NYP'nin temel karakteristik özelliklerini inceliyoruz. İlaveten, eğitim tamamen teorik bir çerçeve oturmasını engellemek ve dilden bağımsız bir şekilde nesne yönelimli programlama tekniklerini ifade etmek üzere farklı programlama dillerinde temel karakteristik özelliklerin nasıl yapıldığını uygulayarak öğreniyoruz. 
+
+#### Bu eğitim kimler için hazırlandı?
+
+Arkadaşlar bu eğitimi yazılım dünyasına yeni girmiş ve henüz temel programlama becerilerini yeni kazanmış öğrencilerimiz için hazırladı. Dolasıyla programlama dünyasına yeni giren ve kendini web, mobil, yapay zeka, oyun geliştirme vb... alanlarda geliştirmek isteyen herkese tavsiye ediyorum. 
+
 ## Eğitim İçeriği 
 
 ### 1. Giriş
-* Giriş
-    * Öngereksinimler
-    * Eğitime Genel Bakış
-    * Neden NYP Öğrenmeliyim?
-    * Kullanılan Araçlar
-    * Kaynaların Paylaşımı
-    * Eğitim İçeriği 
-    * Faydalı Kaynaklar
+* Öngereksinimler
+* Eğitime Genel Bakış
+* Neden NYP Öğrenmeliyim?
+* Kullanılan Araçlar
+* Kaynaların Paylaşımı
+* Eğitim İçeriği 
+* Faydalı Kaynaklar
 
 ### 2. Programlama Paradigmaları
 * Prosedürel Programlama Paradigması
@@ -62,7 +70,7 @@ Nesne Yönelimli Programlama (NYP) eğitimde, NYP paradigmasına odaklanıyoruz.
 * Java
 * Numara Sıralama Örneği
 * Nesne Tanımlama 
-* Nesne Sıralam Örneği 
+* Nesne Sıralama Örneği 
 * Yerleşik Arayüzlerin Kullanımı 
 * Arayüz Tanımlama ve Kullanma
 * Çoklu Kalıtım 
@@ -111,7 +119,7 @@ Nesne Yönelimli Programlama (NYP) eğitimde, NYP paradigmasına odaklanıyoruz.
 7. [Plant UML](https://plantuml.com/)
 
 # Discord Kanalı
-[Eğitime ait Discord kanalına katılmak için tıklayınız.](https://discord.gg/Ebewmdjz)
+[Eğitime ait Discord kanalına katılmak için tıklayınız.](https://discord.gg/ZvV8avk9)
 
 # Eğitmen 
 [Doç. Dr. Zafer CÖMERT](http://www.zafercomert.com/)

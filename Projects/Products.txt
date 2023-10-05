@@ -1,0 +1,5 @@
+1, Computer,5000,2
+2, Laptop,7000,3
+3, Airpods,2000,1
+4, Smart Phone,1500,5,
+5, Smart Watch,900,4

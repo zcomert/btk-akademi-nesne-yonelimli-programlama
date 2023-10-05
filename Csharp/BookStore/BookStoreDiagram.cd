@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="BookStore.Book">
-    <Position X="4.5" Y="3.5" Width="1.75" />
+    <Position X="8.5" Y="3.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAQBAAkAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <HashCode>AgAACAAAAQBAAkAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Category" />
+      <Property Name="BookDetail" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="BookAuthors" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="BookStore.Category">
-    <Position X="8.25" Y="3.5" Width="1.75" />
+    <Position X="12.25" Y="3.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAgCAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Category.cs</FileName>
@@ -24,7 +25,7 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="BookStore.BookDetail">
-    <Position X="1.5" Y="3.5" Width="1.5" />
+    <Position X="5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAQAAAABACAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BookDetail.cs</FileName>
@@ -34,7 +35,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="BookStore.Author">
-    <Position X="8.5" Y="6.25" Width="1.5" />
+    <Position X="12.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Author.cs</FileName>
@@ -44,14 +45,14 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="BookStore.BookAuthor">
-    <Position X="4.5" Y="6.25" Width="1.75" />
+    <Position X="8.5" Y="6.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAABAgAAAAAAAAAAAAAAAABAAAAAAABA=</HashCode>
       <FileName>BookAuthor.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Author" />
       <Property Name="Book" />
+      <Property Name="Author" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
