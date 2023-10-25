@@ -133,7 +133,7 @@ Arkadaşlar bu eğitimi yazılım dünyasına yeni girmiş ve henüz temel progr
 7. [Plant UML](https://plantuml.com/)
 
 # Discord Kanalı
-[Eğitime ait Discord kanalına katılmak için tıklayınız.](https://discord.gg/qFXmE2Fb)
+[Eğitime ait Discord kanalına katılmak için tıklayınız.](https://discord.gg/g2VKE8Sn9w)
 
 # Eğitmen 
 [Doç. Dr. Zafer CÖMERT](http://www.zafercomert.com/)
