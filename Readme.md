@@ -136,7 +136,7 @@ Arkadaşlar bu eğitimi yazılım dünyasına yeni girmiş ve henüz temel progr
 [Eğitime ait Discord kanalına katılmak için tıklayınız.](https://discord.gg/g2VKE8Sn9w)
 
 # Eğitmen 
-[Doç. Dr. Zafer CÖMERT]([http://www.zafercomert.com/](https://avesis.samsun.edu.tr/zcomert))
+Doç. Dr. Zafer CÖMERT
 
 Samsun Üniversitesi <br />
 Mühendislik Fakültesi <br /> 
@@ -144,7 +144,7 @@ Yazılım Mühendisliği Bölümü
 
 #### Bağlantılar
 
-* [Web](http://www.zafercomert.com/)
+* [Web](https://avesis.samsun.edu.tr/zcomert)
 * [Youtube - Virtual Campus](https://www.youtube.com/@virtual.campus)
 * [Twitter](https://twitter.com/dr_zafer_comert)
 * [Linkedin](https://www.linkedin.com/in/zafer-c%C3%B6mert-51000367/)
